@@ -13,6 +13,7 @@ class FlaskTestCase(unittest.TestCase):
         response = self.app.get('/')
         self.assertEqual(response.status_code, 302)
         self.assertIn('/login', response.headers['Location'])
+        print("Lanzamiento de la redireccion de login")
 
     def test_login_page(self):
         response = self.app.get('/login')

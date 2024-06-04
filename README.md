@@ -29,8 +29,8 @@ python3 -m unittest discover -s tests
 9. Creamos un RDS, luego creamos la conexion de la base de datos con python, añadimos la endpoint de mi base de datos en nuestro codigo python, cogemos las credenciales y la añadimos aqui:
 
 ```
-host = 'dbflask.ckwbvo3ekhvf.us-east-1.rds.amazonaws.com'
-user = 'admin'
-password = 'admin1234'
-database = 'dbflask'
+host = 'tuRDSk.ckwbvo3ekhvf.us-east-1.rds.amazonaws.com'
+user = 'tuUsuario'
+password = 'tu contraseña'
+database = 'El nombre de tu base de datos'
 ```
